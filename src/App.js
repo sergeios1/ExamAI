@@ -1,0 +1,30 @@
+import logo from './assets/smartrabbit.png';
+import Navbar from './components/Navbar/Navbar.js'
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Navbar/>
+      <header className="App-header">
+
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          hi 
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header> 
+
+    </div>
+  );
+}
+
+
+export default App;
